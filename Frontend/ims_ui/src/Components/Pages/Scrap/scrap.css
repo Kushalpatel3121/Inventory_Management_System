@@ -1,0 +1,33 @@
+@import '/src/index.css';
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.fe-scrap{
+    margin: 4vh;
+    width:80vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fe-scrap-search-add{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fe-scrap-chart{
+    /* display: flex;
+    flex-direction: column; */
+    height:70vh;
+}
+
+.fe-scrap-table-data{
+    background-color: var(--secondary-200);
+}
